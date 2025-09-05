@@ -1,4 +1,6 @@
 # Building LLVM for use with toolchains_llvm on macOS
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffzakaria%2Fbuild_macos_llvm.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffzakaria%2Fbuild_macos_llvm?ref=badge_shield)
+
 
 This repo contains a basic script and code patch in order to build and package a copy of LLVM suitable for use with the Bazel [toolchains_llvm](https://github.com/bazel-contrib/toolchains_llvm) ruleset.
 
@@ -26,3 +28,7 @@ The build process can be invoked via the [build-macos-llvm.sh](./build-macos-llv
 
 Where the first arg is the version, and the second arg is the output path.
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ffzakaria%2Fbuild_macos_llvm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ffzakaria%2Fbuild_macos_llvm?ref=badge_large)
